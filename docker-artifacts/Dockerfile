@@ -1,4 +1,4 @@
-FROM vllm/vllm-openai:v0.7.3
+FROM vllm/vllm-openai:v0.8.2
 
 # # Make server compatible with SageMaker Hosting contract
 RUN sed -i 's|/v1/models|/ping|g' /usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py
