@@ -1,0 +1,1 @@
+864981714022.dkr.ecr.us-east-1.amazonaws.com/vllm-sagemaker:latest
